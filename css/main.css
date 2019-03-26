@@ -97,12 +97,19 @@ header div {
     max-height: 40px;
 
 }
+
+.channel-description{
+    padding-left: 10px;
+    align-self: center;
+}
 .actions{
     margin: 5px;
 }
 
 .channel-logo{
     max-width: 40px;
+    border: 0px solid black;
+    border-radius: 100%;
 }
 
 .subscribe{
