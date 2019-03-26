@@ -1,9 +1,13 @@
 *{
-  box-sizing: border-box;  
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;
 }
 
 body{
-    margin:0;
+    background: #121212;
 }
 
 header{
@@ -73,4 +77,41 @@ header div {
 
 .img-nav{
     max-height: 30px;
+}
+
+
+.video_coments{
+    font-size: 13px;;
+    width: 100%;
+    
+}
+.Video{
+    height: 100%;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.video_coments{
+    height: 100%;
+}
+
+.recommended{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 35%;
+    
+}
+.thumbnail{
+    margin: 10px;
 }
