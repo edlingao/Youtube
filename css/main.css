@@ -81,14 +81,12 @@ header div {
 
 
 .video_coments{
-    font-size: 13px;;
+    font-size: 13px;
     width: 100%;
-    
-}
-.Video{
     height: 100%;
     
 }
+
 .main{
     display: flex;
     flex-direction: row;
@@ -96,11 +94,25 @@ header div {
     margin: auto;
     justify-content: space-around;
     align-items: flex-start;
-    height: 100%;
+    
+}
+
+.video_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 500px;
 }
 
 .video_coments{
-    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    flex-direction: column;
+    flex-grow: 50;
+    
 }
 
 .recommended{
@@ -112,6 +124,17 @@ header div {
     width: 35%;
     
 }
+
+.thumbnail img{
+    width: 150px;
+}
 .thumbnail{
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    max-height: 100px;
+    font-size: 9px;
+    text-align: justify
 }
