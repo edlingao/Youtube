@@ -77,8 +77,38 @@ header div {
 
 .img-nav{
     max-height: 30px;
+
+
 }
 
+.like-share{
+   display: flex; 
+   justify-content: flex-end;
+   /* flex-direction: column; */
+}
+
+.description-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+}
+.channel-info{
+    display: flex;
+    max-height: 40px;
+
+}
+.actions{
+    margin: 5px;
+}
+
+.channel-logo{
+    max-width: 40px;
+}
+
+.subscribe{
+    background: red;
+    padding: 8px;
+}
 
 .video_coments{
     font-size: 13px;
