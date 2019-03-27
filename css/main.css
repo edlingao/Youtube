@@ -86,18 +86,44 @@ header div {
    justify-content: flex-end;
    /* flex-direction: column; */
 }
-
+.channel-main{
+    display: flex;
+    flex-direction: row;
+}
 .description-header{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between; 
 }
 .channel-info{
     display: flex;
+    justify-content: space-between;
     max-height: 40px;
 
 }
-
+.channel-show{
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.channel-comment{
+    display: flex;
+    flex-direction: row;
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+.channel-show a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #555555;
+}
 .channel-description{
     padding-left: 10px;
     align-self: center;
@@ -133,7 +159,10 @@ header div {
     align-items: flex-start;
     
 }
-
+.video-description{
+    border-bottom: 1px solid #555555;
+    margin-bottom: 20px;
+}
 .video_container{
     display: flex;
     flex-direction: column;
@@ -165,6 +194,10 @@ header div {
 .thumbnail img{
     width: 150px;
 }
+
+.thumbnail_description{
+    align-self: center;
+}
 .thumbnail{
     margin: 10px;
     display: flex;
@@ -173,5 +206,5 @@ header div {
     max-width: 100%;
     max-height: 100px;
     font-size: 9px;
-    text-align: justify
+    text-align: justify;
 }
