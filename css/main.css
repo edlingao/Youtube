@@ -112,13 +112,22 @@ header div {
     
     
 }
+
+.comment-like-dislike{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    align-items: flex-end;
+
+}
 .channel-comment{
     display: flex;
     flex-direction: row;
     max-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    align-content: center;
 }
-.channel-show a{
+.super-button{
     padding-top: 20px;
     text-decoration: none;
     font-size: 15px;
