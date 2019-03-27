@@ -31,14 +31,14 @@ header div{
     text-align: right;
     vertical-align: middle;
     font-size: 1.5rem;
-    /* display: inline; */
+    
 }
 
 .input-search{
     width: 100%;
     line-height: 24px;
     font-size: 16px;
-    /* height: 100%;; */
+
 }
 
 .nav-menu{
@@ -81,7 +81,7 @@ header div{
 .like-share{
    display: flex; 
    justify-content: flex-end;
-   /* flex-direction: column; */
+
 }
 .channel-main{
     display: flex;
